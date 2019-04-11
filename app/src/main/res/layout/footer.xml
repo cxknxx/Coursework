@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--S1514428
+Cameron Knox
+Computing-->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+
+
+        <TableRow android:padding="8dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_name"
+                android:textColor="@color/table_text"
+                android:textSize="14sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matric_number"
+                android:textColor="@color/table_text"
+                android:textSize="14sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course"
+                android:textColor="@color/table_text"
+                android:textSize="14sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--S1514428
+Cameron Knox
+Computing-->
+
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TableLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/table_background">
+
+        <TableRow android:padding="8dp" android:background="@drawable/table_row">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                />
+        </TableRow>
+
+
+
+        <TableRow android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/magnitude"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_magnitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow android:padding="8dp" android:background="@drawable/table_row">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/depth"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_depth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow android:padding="8dp" android:background="@drawable/table_row">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latitude"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/longitude"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow android:padding="8dp" android:background="@drawable/table_row">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/origin_date"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_origin_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publish_date"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+            <TextView
+                android:id="@+id/item_pub_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/table_text"
+                android:textSize="18sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+
+
+        <TableRow android:padding="8dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_name"
+                android:textColor="@color/table_text"
+                android:textSize="14sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matric_number"
+                android:textColor="@color/table_text"
+                android:textSize="14sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course"
+                android:textColor="@color/table_text"
+                android:textSize="14sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"/>
+
+    </TableRow>
+
+
+
+    </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/backButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/BackButtonFrame">
+        <ImageView style="@style/BackButtonImage"/>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

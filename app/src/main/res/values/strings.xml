@@ -1,0 +1,57 @@
+<!--S1514428
+Cameron Knox
+Computing-->
+<resources>
+    <!--On Load-->
+    <string name="matric_number">S1514428</string>
+    <string name="student_name">Cameron Knox</string>
+    <string name="app_name">Coursework</string>
+    <string name="course">Computing</string>
+    <string name="module_name">Mobile Platform Development</string>
+
+    <!-- Homepage -->
+    <string name="item_depth">Depth: %d km</string>
+    <string name="item_magnitude">Magnitude: %1$s</string>
+    <string name="home">Home</string>
+
+    <!-- Item page -->
+    <string name="location">Location</string>
+    <string name="magnitude">Magnitude</string>
+    <string name="depth">Depth</string>
+    <string name="category">Category</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="origin_date">Origin Date</string>
+    <string name="publish_date">Publish Date</string>
+    <string name="depth_km">%d km</string>
+    <string name="displayContent">Press for further information</string>
+
+    <!-- ResultActivity, not fully implemented -->
+    <string name="start_date">Start date: %s</string>
+    <string name="end_date">End date: %s</string>
+    <string name="most_northern">Most Northern</string>
+    <string name="most_eastern">Most Eastern</string>
+    <string name="most_southern">Most Southern</string>
+    <string name="most_western">Most Western</string>
+
+    <!-- Actions -->
+    <string name="action_search">Search</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_default">Default</string>
+    <string name="action_sort_date_ascending">Date Ascending</string>
+    <string name="action_sort_date_descending">Date Descending</string>
+    <string name="action_date">Date</string>
+
+    <!-- DateRange -->
+    <string name="select_date">Select Date</string>
+    <string name="okay">Okay</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_start_date">Start Date:</string>
+    <string name="select_end_date">End Date:</string>
+    <string name="largest_magnitude">Largest Magnitude</string>
+    <string name="deepest_earthquake">Deepest Earthquake</string>
+    <string name="shallowest_earthquake">Shallowest Earthquake</string>
+
+
+</resources>

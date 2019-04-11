@@ -1,0 +1,21 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--S1514428
+   Cameron Knox
+   Computing-->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_toolbar_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_date"
+        android:icon="@drawable/ic_toolbar_date"
+        android:title="@string/action_date"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
